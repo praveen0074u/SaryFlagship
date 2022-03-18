@@ -8,13 +8,14 @@
 import Foundation
 
 // MARK: - BannerResponse
-struct BannerResponse: Codable {
-    let bannerResult: [BannerResult]?
+struct BannerResponse: Decodable {
+    let result: [Banner]?
     let status: Bool?
+    
 }
 
 // MARK: - Result
-struct BannerResult: Codable {
+struct Banner: Decodable {
     let id: Int?
     let title, resultDescription, buttonText: String?
     let expiryStatus: Bool?

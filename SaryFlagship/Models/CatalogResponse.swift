@@ -8,15 +8,15 @@
 import Foundation
 
 // MARK: - CatalogResponse
-struct CatalogResponse: Codable {
-    let result: [Result]?
+struct CatalogResponse: Decodable {
+    let result: [Catalog]?
     let other: Other?
     let message: String?
     let status: Bool?
 }
 
 // MARK: - Other
-struct Other: Codable {
+struct Other: Decodable {
     let showSpecialOrderView: Bool?
     let uncompletedProfileSettings: UncompletedProfileSettings?
     let businessStatus: BusinessStatus?
@@ -29,13 +29,13 @@ struct Other: Codable {
 }
 
 // MARK: - BusinessStatus
-struct BusinessStatus: Codable {
+struct BusinessStatus: Decodable {
     let id: Int?
     let title: String?
 }
 
 // MARK: - UncompletedProfileSettings
-struct UncompletedProfileSettings: Codable {
+struct UncompletedProfileSettings: Decodable {
     let showTag: Bool?
     let message: String?
     let image: String?
@@ -49,7 +49,7 @@ struct UncompletedProfileSettings: Codable {
 }
 
 // MARK: - Result
-struct Result: Codable {
+struct Catalog: Decodable {
     let id: Int?
     let title: String?
     let data: [Datum]?
@@ -68,7 +68,7 @@ struct Result: Codable {
 }
 
 // MARK: - Datum
-struct Datum: Codable {
+struct Datum: Decodable {
     let groupID: Int?
     let filters: [Filter]?
     let name: String?
@@ -91,7 +91,7 @@ struct Datum: Codable {
 }
 
 // MARK: - Filter
-struct Filter: Codable {
+struct Filter: Decodable {
     let filterID: Int?
     let name: String?
 

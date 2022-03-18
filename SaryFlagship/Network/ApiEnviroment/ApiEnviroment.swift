@@ -40,7 +40,7 @@ struct ApiEnvironment {
         }
     }
     
-    struct ProductRoutes {
+    struct PathRoutes {
         static let banner = "/v2.5.1/baskets/313817/banners/"
         static let catalog = "/baskets/313817/catalog/"
     }

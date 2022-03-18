@@ -21,9 +21,9 @@ extension CatalogTarget: TargetType {
     var path: String {
         switch self {
         case .getBanner:
-            return ""
+            return ApiEnvironment.PathRoutes.banner
         case .getCatalog:
-            return ""
+            return ApiEnvironment.PathRoutes.catalog
         }
     }
     

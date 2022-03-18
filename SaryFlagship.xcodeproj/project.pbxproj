@@ -24,6 +24,16 @@
 		A0BDEB6827E4FE8700A85888 /* ApiEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6627E4FE8700A85888 /* ApiEnviroment.swift */; };
 		A0BDEB6A27E4FF1200A85888 /* CatalogTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6927E4FF1200A85888 /* CatalogTarget.swift */; };
 		A0BDEB6B27E4FF1200A85888 /* CatalogTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6927E4FF1200A85888 /* CatalogTarget.swift */; };
+		A0BDEB6D27E51F4900A85888 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6C27E51F4900A85888 /* NetworkProvider.swift */; };
+		A0BDEB7427E546B000A85888 /* CatalogRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7327E546B000A85888 /* CatalogRepo.swift */; };
+		A0BDEB7727E54B9200A85888 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7627E54B9200A85888 /* Coordinator.swift */; };
+		A0BDEB7827E54B9200A85888 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7627E54B9200A85888 /* Coordinator.swift */; };
+		A0BDEB7A27E54BFB00A85888 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7927E54BFB00A85888 /* Storyboarded.swift */; };
+		A0BDEB7B27E54BFB00A85888 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7927E54BFB00A85888 /* Storyboarded.swift */; };
+		A0BDEB7D27E54C9A00A85888 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7C27E54C9A00A85888 /* CatalogViewController.swift */; };
+		A0BDEB7E27E54C9A00A85888 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7C27E54C9A00A85888 /* CatalogViewController.swift */; };
+		A0BDEB8027E54D7B00A85888 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7F27E54D7B00A85888 /* MainCoordinator.swift */; };
+		A0BDEB8127E54D7B00A85888 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7F27E54D7B00A85888 /* MainCoordinator.swift */; };
 		E7D7E49EBEB0155EFB952E4D /* Pods_SaryFlagship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39BE26A30884FC0114B85DC /* Pods_SaryFlagship.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +74,12 @@
 		A0BDEB6327E4FA6A00A85888 /* CatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogResponse.swift; sourceTree = "<group>"; };
 		A0BDEB6627E4FE8700A85888 /* ApiEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEnviroment.swift; sourceTree = "<group>"; };
 		A0BDEB6927E4FF1200A85888 /* CatalogTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTarget.swift; sourceTree = "<group>"; };
+		A0BDEB6C27E51F4900A85888 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		A0BDEB7327E546B000A85888 /* CatalogRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRepo.swift; sourceTree = "<group>"; };
+		A0BDEB7627E54B9200A85888 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A0BDEB7927E54BFB00A85888 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		A0BDEB7C27E54C9A00A85888 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		A0BDEB7F27E54D7B00A85888 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		C39BE26A30884FC0114B85DC /* Pods_SaryFlagship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaryFlagship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,6 +142,11 @@
 		A0BDEB2A27E4F13900A85888 /* SaryFlagship */ = {
 			isa = PBXGroup;
 			children = (
+				A0BDEB7527E54B8400A85888 /* Coordinator */,
+				A0BDEB7127E53CD900A85888 /* ViewModel */,
+				A0BDEB7027E53CD100A85888 /* ViewController */,
+				A0BDEB6F27E53CC800A85888 /* View */,
+				A0BDEB6E27E5204F00A85888 /* Data */,
 				A0BDEB5C27E4F64D00A85888 /* Models */,
 				A0BDEB5B27E4F64400A85888 /* Network */,
 				A0BDEB2B27E4F13900A85888 /* AppDelegate.swift */,
@@ -159,6 +180,7 @@
 		A0BDEB5B27E4F64400A85888 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				A0BDEB7227E5469E00A85888 /* Repo */,
 				A0BDEB5D27E4F66A00A85888 /* ApiEnviroment */,
 				A0BDEB5E27E4F67600A85888 /* NetworkProvider */,
 				A0BDEB5F27E4F68800A85888 /* Target */,
@@ -186,6 +208,7 @@
 		A0BDEB5E27E4F67600A85888 /* NetworkProvider */ = {
 			isa = PBXGroup;
 			children = (
+				A0BDEB6C27E51F4900A85888 /* NetworkProvider.swift */,
 			);
 			path = NetworkProvider;
 			sourceTree = "<group>";
@@ -196,6 +219,53 @@
 				A0BDEB6927E4FF1200A85888 /* CatalogTarget.swift */,
 			);
 			path = Target;
+			sourceTree = "<group>";
+		};
+		A0BDEB6E27E5204F00A85888 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A0BDEB6F27E53CC800A85888 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0BDEB7027E53CD100A85888 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A0BDEB7C27E54C9A00A85888 /* CatalogViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A0BDEB7127E53CD900A85888 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A0BDEB7227E5469E00A85888 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				A0BDEB7327E546B000A85888 /* CatalogRepo.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		A0BDEB7527E54B8400A85888 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A0BDEB7627E54B9200A85888 /* Coordinator.swift */,
+				A0BDEB7927E54BFB00A85888 /* Storyboarded.swift */,
+				A0BDEB7F27E54D7B00A85888 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		AA5E70C5DD7A396B9061B5A4 /* Pods */ = {
@@ -382,12 +452,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BDEB7D27E54C9A00A85888 /* CatalogViewController.swift in Sources */,
 				A0BDEB6A27E4FF1200A85888 /* CatalogTarget.swift in Sources */,
 				A0BDEB3027E4F13900A85888 /* ViewController.swift in Sources */,
+				A0BDEB7727E54B9200A85888 /* Coordinator.swift in Sources */,
 				A0BDEB2C27E4F13900A85888 /* AppDelegate.swift in Sources */,
 				A0BDEB6127E4F9D600A85888 /* BannerResponse.swift in Sources */,
+				A0BDEB7427E546B000A85888 /* CatalogRepo.swift in Sources */,
 				A0BDEB6427E4FA6A00A85888 /* CatalogResponse.swift in Sources */,
+				A0BDEB7A27E54BFB00A85888 /* Storyboarded.swift in Sources */,
 				A0BDEB2E27E4F13900A85888 /* SceneDelegate.swift in Sources */,
+				A0BDEB8027E54D7B00A85888 /* MainCoordinator.swift in Sources */,
+				A0BDEB6D27E51F4900A85888 /* NetworkProvider.swift in Sources */,
 				A0BDEB6727E4FE8700A85888 /* ApiEnviroment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,11 +472,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BDEB7E27E54C9A00A85888 /* CatalogViewController.swift in Sources */,
 				A0BDEB6227E4F9D600A85888 /* BannerResponse.swift in Sources */,
 				A0BDEB4327E4F13C00A85888 /* SaryFlagshipTests.swift in Sources */,
+				A0BDEB7827E54B9200A85888 /* Coordinator.swift in Sources */,
 				A0BDEB6527E4FA6A00A85888 /* CatalogResponse.swift in Sources */,
 				A0BDEB6827E4FE8700A85888 /* ApiEnviroment.swift in Sources */,
 				A0BDEB6B27E4FF1200A85888 /* CatalogTarget.swift in Sources */,
+				A0BDEB8127E54D7B00A85888 /* MainCoordinator.swift in Sources */,
+				A0BDEB7B27E54BFB00A85888 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +656,6 @@
 				INFOPLIST_FILE = SaryFlagship/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -604,7 +683,6 @@
 				INFOPLIST_FILE = SaryFlagship/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
