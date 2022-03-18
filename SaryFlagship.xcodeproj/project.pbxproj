@@ -16,6 +16,15 @@
 		A0BDEB4327E4F13C00A85888 /* SaryFlagshipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB4227E4F13C00A85888 /* SaryFlagshipTests.swift */; };
 		A0BDEB4D27E4F13C00A85888 /* SaryFlagshipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB4C27E4F13C00A85888 /* SaryFlagshipUITests.swift */; };
 		A0BDEB4F27E4F13C00A85888 /* SaryFlagshipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB4E27E4F13C00A85888 /* SaryFlagshipUITestsLaunchTests.swift */; };
+		A0BDEB6127E4F9D600A85888 /* BannerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6027E4F9D600A85888 /* BannerResponse.swift */; };
+		A0BDEB6227E4F9D600A85888 /* BannerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6027E4F9D600A85888 /* BannerResponse.swift */; };
+		A0BDEB6427E4FA6A00A85888 /* CatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6327E4FA6A00A85888 /* CatalogResponse.swift */; };
+		A0BDEB6527E4FA6A00A85888 /* CatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6327E4FA6A00A85888 /* CatalogResponse.swift */; };
+		A0BDEB6727E4FE8700A85888 /* ApiEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6627E4FE8700A85888 /* ApiEnviroment.swift */; };
+		A0BDEB6827E4FE8700A85888 /* ApiEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6627E4FE8700A85888 /* ApiEnviroment.swift */; };
+		A0BDEB6A27E4FF1200A85888 /* CatalogTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6927E4FF1200A85888 /* CatalogTarget.swift */; };
+		A0BDEB6B27E4FF1200A85888 /* CatalogTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB6927E4FF1200A85888 /* CatalogTarget.swift */; };
+		E7D7E49EBEB0155EFB952E4D /* Pods_SaryFlagship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39BE26A30884FC0114B85DC /* Pods_SaryFlagship.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		241A0EE50BD4D4E3E891848E /* Pods-SaryFlagship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaryFlagship.release.xcconfig"; path = "Target Support Files/Pods-SaryFlagship/Pods-SaryFlagship.release.xcconfig"; sourceTree = "<group>"; };
+		7D176E03E70AFC3EF3925A54 /* Pods-SaryFlagship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaryFlagship.debug.xcconfig"; path = "Target Support Files/Pods-SaryFlagship/Pods-SaryFlagship.debug.xcconfig"; sourceTree = "<group>"; };
 		A0BDEB2827E4F13900A85888 /* SaryFlagship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaryFlagship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BDEB2B27E4F13900A85888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0BDEB2D27E4F13900A85888 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		A0BDEB4827E4F13C00A85888 /* SaryFlagshipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaryFlagshipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BDEB4C27E4F13C00A85888 /* SaryFlagshipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaryFlagshipUITests.swift; sourceTree = "<group>"; };
 		A0BDEB4E27E4F13C00A85888 /* SaryFlagshipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaryFlagshipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0BDEB6027E4F9D600A85888 /* BannerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerResponse.swift; sourceTree = "<group>"; };
+		A0BDEB6327E4FA6A00A85888 /* CatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogResponse.swift; sourceTree = "<group>"; };
+		A0BDEB6627E4FE8700A85888 /* ApiEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEnviroment.swift; sourceTree = "<group>"; };
+		A0BDEB6927E4FF1200A85888 /* CatalogTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTarget.swift; sourceTree = "<group>"; };
+		C39BE26A30884FC0114B85DC /* Pods_SaryFlagship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaryFlagship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D7E49EBEB0155EFB952E4D /* Pods_SaryFlagship.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06FFF68D3E9577CFC13CC906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C39BE26A30884FC0114B85DC /* Pods_SaryFlagship.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0BDEB1F27E4F13900A85888 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				A0BDEB4127E4F13C00A85888 /* SaryFlagshipTests */,
 				A0BDEB4B27E4F13C00A85888 /* SaryFlagshipUITests */,
 				A0BDEB2927E4F13900A85888 /* Products */,
+				AA5E70C5DD7A396B9061B5A4 /* Pods */,
+				06FFF68D3E9577CFC13CC906 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +126,8 @@
 		A0BDEB2A27E4F13900A85888 /* SaryFlagship */ = {
 			isa = PBXGroup;
 			children = (
+				A0BDEB5C27E4F64D00A85888 /* Models */,
+				A0BDEB5B27E4F64400A85888 /* Network */,
 				A0BDEB2B27E4F13900A85888 /* AppDelegate.swift */,
 				A0BDEB2D27E4F13900A85888 /* SceneDelegate.swift */,
 				A0BDEB2F27E4F13900A85888 /* ViewController.swift */,
@@ -127,6 +156,57 @@
 			path = SaryFlagshipUITests;
 			sourceTree = "<group>";
 		};
+		A0BDEB5B27E4F64400A85888 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A0BDEB5D27E4F66A00A85888 /* ApiEnviroment */,
+				A0BDEB5E27E4F67600A85888 /* NetworkProvider */,
+				A0BDEB5F27E4F68800A85888 /* Target */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A0BDEB5C27E4F64D00A85888 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0BDEB6027E4F9D600A85888 /* BannerResponse.swift */,
+				A0BDEB6327E4FA6A00A85888 /* CatalogResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0BDEB5D27E4F66A00A85888 /* ApiEnviroment */ = {
+			isa = PBXGroup;
+			children = (
+				A0BDEB6627E4FE8700A85888 /* ApiEnviroment.swift */,
+			);
+			path = ApiEnviroment;
+			sourceTree = "<group>";
+		};
+		A0BDEB5E27E4F67600A85888 /* NetworkProvider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkProvider;
+			sourceTree = "<group>";
+		};
+		A0BDEB5F27E4F68800A85888 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				A0BDEB6927E4FF1200A85888 /* CatalogTarget.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		AA5E70C5DD7A396B9061B5A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D176E03E70AFC3EF3925A54 /* Pods-SaryFlagship.debug.xcconfig */,
+				241A0EE50BD4D4E3E891848E /* Pods-SaryFlagship.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0BDEB5227E4F13C00A85888 /* Build configuration list for PBXNativeTarget "SaryFlagship" */;
 			buildPhases = (
+				E3F08CB43A554D0A78D52300 /* [CP] Check Pods Manifest.lock */,
 				A0BDEB2427E4F13900A85888 /* Sources */,
 				A0BDEB2527E4F13900A85888 /* Frameworks */,
 				A0BDEB2627E4F13900A85888 /* Resources */,
+				DFDCF90130E1CF6FBCD35347 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +335,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DFDCF90130E1CF6FBCD35347 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaryFlagship/Pods-SaryFlagship-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaryFlagship/Pods-SaryFlagship-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaryFlagship/Pods-SaryFlagship-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F08CB43A554D0A78D52300 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaryFlagship-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0BDEB2427E4F13900A85888 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BDEB6A27E4FF1200A85888 /* CatalogTarget.swift in Sources */,
 				A0BDEB3027E4F13900A85888 /* ViewController.swift in Sources */,
 				A0BDEB2C27E4F13900A85888 /* AppDelegate.swift in Sources */,
+				A0BDEB6127E4F9D600A85888 /* BannerResponse.swift in Sources */,
+				A0BDEB6427E4FA6A00A85888 /* CatalogResponse.swift in Sources */,
 				A0BDEB2E27E4F13900A85888 /* SceneDelegate.swift in Sources */,
+				A0BDEB6727E4FE8700A85888 /* ApiEnviroment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +396,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BDEB6227E4F9D600A85888 /* BannerResponse.swift in Sources */,
 				A0BDEB4327E4F13C00A85888 /* SaryFlagshipTests.swift in Sources */,
+				A0BDEB6527E4FA6A00A85888 /* CatalogResponse.swift in Sources */,
+				A0BDEB6827E4FE8700A85888 /* ApiEnviroment.swift in Sources */,
+				A0BDEB6B27E4FF1200A85888 /* CatalogTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +566,7 @@
 		};
 		A0BDEB5327E4F13C00A85888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D176E03E70AFC3EF3925A54 /* Pods-SaryFlagship.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +594,7 @@
 		};
 		A0BDEB5427E4F13C00A85888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241A0EE50BD4D4E3E891848E /* Pods-SaryFlagship.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
