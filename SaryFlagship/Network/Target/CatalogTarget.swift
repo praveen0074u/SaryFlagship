@@ -40,6 +40,25 @@ extension CatalogTarget: TargetType {
         return ["Content-type": "application/json"]
 
     }
-    
+    var sampleData: Data {
+        
+        print("sampele fetch")
+        switch self {
+        case .getBanner:
+            if let path = Bundle.main.path(forResource: "banner", ofType: "json") {
+                if let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe){
+                    return data
+                }
+            }
+            
+        case .getCatalog:
+            if let path = Bundle.main.path(forResource: "catalog", ofType: "json") {
+                if let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe){
+                    return data
+                }
+            }
+        }
+        return Data()
+    }
     
 }

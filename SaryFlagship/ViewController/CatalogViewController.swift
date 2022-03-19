@@ -12,6 +12,8 @@ class CatalogViewController: UIViewController, Storyboarded {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let repo = CatalogRepo.init()
+        CatalogViewModel.init(repo: repo)
         // Do any additional setup after loading the view.
     }
     

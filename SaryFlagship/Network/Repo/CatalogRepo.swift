@@ -20,7 +20,7 @@ class CatalogRepo : CatalogRepoProtocol {
     }
     
     func catalogs() -> Single<CatalogResponse> {
-        NetworkProvider.shared.request(MultiTarget(CatalogTarget.getCatalog))
+        NetworkProvider.shared.requestStub(MultiTarget(CatalogTarget.getCatalog))
     }
 }
 

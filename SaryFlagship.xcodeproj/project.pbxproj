@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A0BDEB2C27E4F13900A85888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB2B27E4F13900A85888 /* AppDelegate.swift */; };
 		A0BDEB2E27E4F13900A85888 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB2D27E4F13900A85888 /* SceneDelegate.swift */; };
-		A0BDEB3027E4F13900A85888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB2F27E4F13900A85888 /* ViewController.swift */; };
 		A0BDEB3327E4F13900A85888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BDEB3127E4F13900A85888 /* Main.storyboard */; };
 		A0BDEB3527E4F13C00A85888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BDEB3427E4F13C00A85888 /* Assets.xcassets */; };
 		A0BDEB3827E4F13C00A85888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BDEB3627E4F13C00A85888 /* LaunchScreen.storyboard */; };
@@ -34,6 +33,12 @@
 		A0BDEB7E27E54C9A00A85888 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7C27E54C9A00A85888 /* CatalogViewController.swift */; };
 		A0BDEB8027E54D7B00A85888 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7F27E54D7B00A85888 /* MainCoordinator.swift */; };
 		A0BDEB8127E54D7B00A85888 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB7F27E54D7B00A85888 /* MainCoordinator.swift */; };
+		A0BDEB8327E5D5E800A85888 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB8227E5D5E800A85888 /* CatalogViewModel.swift */; };
+		A0BDEB8427E5D5E800A85888 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB8227E5D5E800A85888 /* CatalogViewModel.swift */; };
+		A0BDEB8827E5DC9700A85888 /* banner.json in Resources */ = {isa = PBXBuildFile; fileRef = A0BDEB8627E5DC9700A85888 /* banner.json */; };
+		A0BDEB8927E5DC9700A85888 /* banner.json in Resources */ = {isa = PBXBuildFile; fileRef = A0BDEB8627E5DC9700A85888 /* banner.json */; };
+		A0BDEB8A27E5DC9700A85888 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = A0BDEB8727E5DC9700A85888 /* catalog.json */; };
+		A0BDEB8B27E5DC9700A85888 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = A0BDEB8727E5DC9700A85888 /* catalog.json */; };
 		E7D7E49EBEB0155EFB952E4D /* Pods_SaryFlagship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39BE26A30884FC0114B85DC /* Pods_SaryFlagship.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +65,6 @@
 		A0BDEB2827E4F13900A85888 /* SaryFlagship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaryFlagship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BDEB2B27E4F13900A85888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0BDEB2D27E4F13900A85888 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0BDEB2F27E4F13900A85888 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0BDEB3227E4F13900A85888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0BDEB3427E4F13C00A85888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BDEB3727E4F13C00A85888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +84,9 @@
 		A0BDEB7927E54BFB00A85888 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		A0BDEB7C27E54C9A00A85888 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
 		A0BDEB7F27E54D7B00A85888 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		A0BDEB8227E5D5E800A85888 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		A0BDEB8627E5DC9700A85888 /* banner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = banner.json; sourceTree = "<group>"; };
+		A0BDEB8727E5DC9700A85888 /* catalog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = catalog.json; sourceTree = "<group>"; };
 		C39BE26A30884FC0114B85DC /* Pods_SaryFlagship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaryFlagship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -142,6 +149,7 @@
 		A0BDEB2A27E4F13900A85888 /* SaryFlagship */ = {
 			isa = PBXGroup;
 			children = (
+				A0BDEB8527E5DBDD00A85888 /* MockData */,
 				A0BDEB7527E54B8400A85888 /* Coordinator */,
 				A0BDEB7127E53CD900A85888 /* ViewModel */,
 				A0BDEB7027E53CD100A85888 /* ViewController */,
@@ -151,7 +159,6 @@
 				A0BDEB5B27E4F64400A85888 /* Network */,
 				A0BDEB2B27E4F13900A85888 /* AppDelegate.swift */,
 				A0BDEB2D27E4F13900A85888 /* SceneDelegate.swift */,
-				A0BDEB2F27E4F13900A85888 /* ViewController.swift */,
 				A0BDEB3127E4F13900A85888 /* Main.storyboard */,
 				A0BDEB3427E4F13C00A85888 /* Assets.xcassets */,
 				A0BDEB3627E4F13C00A85888 /* LaunchScreen.storyboard */,
@@ -246,6 +253,7 @@
 		A0BDEB7127E53CD900A85888 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A0BDEB8227E5D5E800A85888 /* CatalogViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -266,6 +274,15 @@
 				A0BDEB7F27E54D7B00A85888 /* MainCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A0BDEB8527E5DBDD00A85888 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				A0BDEB8627E5DC9700A85888 /* banner.json */,
+				A0BDEB8727E5DC9700A85888 /* catalog.json */,
+			);
+			path = MockData;
 			sourceTree = "<group>";
 		};
 		AA5E70C5DD7A396B9061B5A4 /* Pods */ = {
@@ -384,7 +401,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0BDEB3827E4F13C00A85888 /* LaunchScreen.storyboard in Resources */,
+				A0BDEB8827E5DC9700A85888 /* banner.json in Resources */,
 				A0BDEB3527E4F13C00A85888 /* Assets.xcassets in Resources */,
+				A0BDEB8A27E5DC9700A85888 /* catalog.json in Resources */,
 				A0BDEB3327E4F13900A85888 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +412,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BDEB8927E5DC9700A85888 /* banner.json in Resources */,
+				A0BDEB8B27E5DC9700A85888 /* catalog.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,10 +475,10 @@
 			files = (
 				A0BDEB7D27E54C9A00A85888 /* CatalogViewController.swift in Sources */,
 				A0BDEB6A27E4FF1200A85888 /* CatalogTarget.swift in Sources */,
-				A0BDEB3027E4F13900A85888 /* ViewController.swift in Sources */,
 				A0BDEB7727E54B9200A85888 /* Coordinator.swift in Sources */,
 				A0BDEB2C27E4F13900A85888 /* AppDelegate.swift in Sources */,
 				A0BDEB6127E4F9D600A85888 /* BannerResponse.swift in Sources */,
+				A0BDEB8327E5D5E800A85888 /* CatalogViewModel.swift in Sources */,
 				A0BDEB7427E546B000A85888 /* CatalogRepo.swift in Sources */,
 				A0BDEB6427E4FA6A00A85888 /* CatalogResponse.swift in Sources */,
 				A0BDEB7A27E54BFB00A85888 /* Storyboarded.swift in Sources */,
@@ -480,6 +501,7 @@
 				A0BDEB6827E4FE8700A85888 /* ApiEnviroment.swift in Sources */,
 				A0BDEB6B27E4FF1200A85888 /* CatalogTarget.swift in Sources */,
 				A0BDEB8127E54D7B00A85888 /* MainCoordinator.swift in Sources */,
+				A0BDEB8427E5D5E800A85888 /* CatalogViewModel.swift in Sources */,
 				A0BDEB7B27E54BFB00A85888 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

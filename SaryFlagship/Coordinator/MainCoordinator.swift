@@ -19,6 +19,5 @@ class MainCoordinator: Coordinator {
     func start() {
         let vc = CatalogViewController.instantiate()
         navigationController.pushViewController(vc, animated: false)
-        print("------------------")
     }
 }
