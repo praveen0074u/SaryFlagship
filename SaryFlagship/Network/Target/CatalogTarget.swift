@@ -37,12 +37,15 @@ extension CatalogTarget: TargetType {
     }
     
     var headers: [String : String]? {
-        return ["Content-type": "application/json"]
-
+        return ["Content-type": "application/json",
+                "Device-Type" : "ios",
+                "App-Version" : "5.5.0.0.0",
+                "Accept-Language" : "ar",
+                "Platform" : "FLAGSHIP",
+                "Authorization" : "Authorization"]
     }
     var sampleData: Data {
         
-        print("sampele fetch")
         switch self {
         case .getBanner:
             if let path = Bundle.main.path(forResource: "banner", ofType: "json") {

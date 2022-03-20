@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 class MainCoordinator: Coordinator {
+    
     var childCoordinators = [Coordinator]()
     var navigationController: UINavigationController
     
@@ -20,4 +21,5 @@ class MainCoordinator: Coordinator {
         let vc = CatalogViewController.instantiate()
         navigationController.pushViewController(vc, animated: false)
     }
+    
 }

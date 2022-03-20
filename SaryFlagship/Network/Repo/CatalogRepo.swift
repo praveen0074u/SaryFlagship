@@ -16,7 +16,7 @@ protocol CatalogRepoProtocol {
 
 class CatalogRepo : CatalogRepoProtocol {
     func banners() -> Single<BannerResponse> {
-        NetworkProvider.shared.request(MultiTarget(CatalogTarget.getBanner))
+        NetworkProvider.shared.requestStub(MultiTarget(CatalogTarget.getBanner))
     }
     
     func catalogs() -> Single<CatalogResponse> {

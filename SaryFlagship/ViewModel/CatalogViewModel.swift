@@ -6,31 +6,25 @@
 //
 
 import Foundation
+import RxSwift
 
 class CatalogViewModel{
     
     private let repo: CatalogRepo
-        
-    var catalogData: CatalogResponse?
+    
+    var publishCatalog: PublishSubject<CatalogResponse> = PublishSubject()
     
     init(repo: CatalogRepo) {
         self.repo = repo
-        getCatalogs()
     }
     
     func getCatalogs() {
-        
-        CatalogRepo.init().catalogs().subscribe { catalogs in
-            print("success")
-            print(catalogs)
-            self.catalogData = catalogs
+        repo.catalogs().subscribe { [weak self] catalogs in
+            self?.publishCatalog.onNext(catalogs)
         } onFailure: { error in
-            print("error")
+            self.publishCatalog.onError(error)
         } onDisposed: {
             print("on dispose")
         }
-
-
     }
-    
 }

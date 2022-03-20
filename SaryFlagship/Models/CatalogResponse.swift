@@ -52,7 +52,7 @@ struct UncompletedProfileSettings: Decodable {
 struct Catalog: Decodable {
     let id: Int?
     let title: String?
-    let data: [Datum]?
+    let data: [CatalogItem]?
     let dataType: String?
     let showTitle: Bool?
     let uiType: String?
@@ -68,7 +68,7 @@ struct Catalog: Decodable {
 }
 
 // MARK: - Datum
-struct Datum: Decodable {
+struct CatalogItem: Decodable {
     let groupID: Int?
     let filters: [Filter]?
     let name: String?
