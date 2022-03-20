@@ -24,7 +24,6 @@ class CatalogViewModel{
         } onFailure: { error in
             self.publishCatalog.onError(error)
         } onDisposed: {
-            print("on dispose")
         }
     }
 }

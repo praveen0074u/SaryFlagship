@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A051A05E27E7790A00545DF4 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051A05D27E7790A00545DF4 /* SliderCollectionViewCell.swift */; };
 		A08291A127E69B4E004832C6 /* CatalogHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08291A027E69B4E004832C6 /* CatalogHeaderReusableView.swift */; };
 		A08291A227E69B4E004832C6 /* CatalogHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08291A027E69B4E004832C6 /* CatalogHeaderReusableView.swift */; };
-		A08291A427E6B029004832C6 /* CatalogNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08291A327E6B029004832C6 /* CatalogNavigationController.swift */; };
-		A08291A527E6B029004832C6 /* CatalogNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08291A327E6B029004832C6 /* CatalogNavigationController.swift */; };
 		A0BDEB2C27E4F13900A85888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB2B27E4F13900A85888 /* AppDelegate.swift */; };
 		A0BDEB2E27E4F13900A85888 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BDEB2D27E4F13900A85888 /* SceneDelegate.swift */; };
 		A0BDEB3327E4F13900A85888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BDEB3127E4F13900A85888 /* Main.storyboard */; };
@@ -72,8 +71,8 @@
 /* Begin PBXFileReference section */
 		241A0EE50BD4D4E3E891848E /* Pods-SaryFlagship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaryFlagship.release.xcconfig"; path = "Target Support Files/Pods-SaryFlagship/Pods-SaryFlagship.release.xcconfig"; sourceTree = "<group>"; };
 		7D176E03E70AFC3EF3925A54 /* Pods-SaryFlagship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaryFlagship.debug.xcconfig"; path = "Target Support Files/Pods-SaryFlagship/Pods-SaryFlagship.debug.xcconfig"; sourceTree = "<group>"; };
+		A051A05D27E7790A00545DF4 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
 		A08291A027E69B4E004832C6 /* CatalogHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogHeaderReusableView.swift; sourceTree = "<group>"; };
-		A08291A327E6B029004832C6 /* CatalogNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogNavigationController.swift; sourceTree = "<group>"; };
 		A0BDEB2827E4F13900A85888 /* SaryFlagship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaryFlagship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BDEB2B27E4F13900A85888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0BDEB2D27E4F13900A85888 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +146,14 @@
 			path = CollectionViewSupplement;
 			sourceTree = "<group>";
 		};
+		A08291A627E76724004832C6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A0BDEB3127E4F13900A85888 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		A0BDEB1F27E4F13900A85888 = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +179,7 @@
 		A0BDEB2A27E4F13900A85888 /* SaryFlagship */ = {
 			isa = PBXGroup;
 			children = (
+				A08291A627E76724004832C6 /* Storyboard */,
 				A0BDEB8527E5DBDD00A85888 /* MockData */,
 				A0BDEB7527E54B8400A85888 /* Coordinator */,
 				A0BDEB7127E53CD900A85888 /* ViewModel */,
@@ -181,7 +189,6 @@
 				A0BDEB5B27E4F64400A85888 /* Network */,
 				A0BDEB2B27E4F13900A85888 /* AppDelegate.swift */,
 				A0BDEB2D27E4F13900A85888 /* SceneDelegate.swift */,
-				A0BDEB3127E4F13900A85888 /* Main.storyboard */,
 				A0BDEB3427E4F13C00A85888 /* Assets.xcassets */,
 				A0BDEB3627E4F13C00A85888 /* LaunchScreen.storyboard */,
 				A0BDEB3927E4F13C00A85888 /* Info.plist */,
@@ -262,7 +269,6 @@
 		A0BDEB7027E53CD100A85888 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A08291A327E6B029004832C6 /* CatalogNavigationController.swift */,
 				A0BDEB7C27E54C9A00A85888 /* CatalogViewController.swift */,
 			);
 			path = ViewController;
@@ -309,6 +315,7 @@
 				A0BDEB8D27E6113900A85888 /* SmartCollectionViewCell.swift */,
 				A0BDEB9027E6114600A85888 /* GroupCollectionViewCell.swift */,
 				A0BDEB9327E6115000A85888 /* BannerCollectionViewCell.swift */,
+				A051A05D27E7790A00545DF4 /* SliderCollectionViewCell.swift */,
 			);
 			path = CollectionViewCell;
 			sourceTree = "<group>";
@@ -516,7 +523,7 @@
 				A0BDEB7A27E54BFB00A85888 /* Storyboarded.swift in Sources */,
 				A0BDEB2E27E4F13900A85888 /* SceneDelegate.swift in Sources */,
 				A0BDEB8027E54D7B00A85888 /* MainCoordinator.swift in Sources */,
-				A08291A427E6B029004832C6 /* CatalogNavigationController.swift in Sources */,
+				A051A05E27E7790A00545DF4 /* SliderCollectionViewCell.swift in Sources */,
 				A0BDEB6D27E51F4900A85888 /* NetworkProvider.swift in Sources */,
 				A0BDEB6727E4FE8700A85888 /* ApiEnviroment.swift in Sources */,
 			);
@@ -538,7 +545,6 @@
 				A0BDEB6B27E4FF1200A85888 /* CatalogTarget.swift in Sources */,
 				A0BDEB8127E54D7B00A85888 /* MainCoordinator.swift in Sources */,
 				A0BDEB8427E5D5E800A85888 /* CatalogViewModel.swift in Sources */,
-				A08291A527E6B029004832C6 /* CatalogNavigationController.swift in Sources */,
 				A0BDEB7B27E54BFB00A85888 /* Storyboarded.swift in Sources */,
 				A08291A227E69B4E004832C6 /* CatalogHeaderReusableView.swift in Sources */,
 			);

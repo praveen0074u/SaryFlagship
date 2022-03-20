@@ -14,7 +14,6 @@ class GroupCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var labelName: UILabel!
     
     func setCatalogItem(item: CatalogItem) {
-        //self.labelName.text = item.name
         self.imageViewCategory.sd_setImage(with: URL(string: item.image!), completed: nil)
     }
     
