@@ -11,7 +11,6 @@ import RxSwift
 class CatalogViewModel{
     
     private let repo: CatalogRepo
-    
     var publishCatalog: PublishSubject<CatalogResponse> = PublishSubject()
     
     init(repo: CatalogRepo) {

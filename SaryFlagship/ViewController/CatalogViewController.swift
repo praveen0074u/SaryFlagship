@@ -23,6 +23,7 @@ class CatalogViewController: UIViewController, Storyboarded {
         static let collectionViewCellGroup = "GroupCollectionViewCell"
         static let collectionViewHeader = "CatalogHeader"
     }
+    
     enum CatalogCellType: String {
         case smart = "smart"
         case group = "group"
